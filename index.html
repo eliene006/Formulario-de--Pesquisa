@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulário de Pesquisa</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap');
+    </style>
+  </head>
+  <body>
+    <h1>Formulário de Pesquisa da Cursos Tech</h1>
+    <p>Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma.</p>
+    <!-- nome, email e idade-->
+    <form method="post" action="">
+      <fieldset>
+        <label for="name">Nome
+          <input type="text" id="name" placeholder="Digite seu nome aqui" name="nome" class="text" required>
+        </label>
+        <label for="email">E-mail
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail aqui" class="text" required>
+        </label>
+        <label for="idade">Idade
+          <input type="number" id="idade" name="idade" min="14" max="100" placeholder="Digite sua idade aqui" class="text">
+        </label>
+      </fieldset>
+      <!--recomendaçao-->
+      <fieldset>
+        <label for="recom">Você recomendaria Cursos Tech a um amigo? <br>
+          <input id="recom" type="radio" name="recom" value="sim"> Sim <br> 
+          <input id="recom" type="radio" name="recom" value="talvez"> Talvez <br>
+          <input id="recom" type="radio" name="recom" value="nao"> Não
+      </fieldset>
+      <!--recurso favorito-->
+      <fieldset>
+        <label for="dropdown">Qual é o seu recurso favorito da Cursos Tech?
+          <select id="dropdown">
+            <option value="">Selecione uma opção</option>
+            <option value="desafios">Desafios</option>
+            <option value="comunidade">Comunidade</option>
+            <option value="projetos">Projetos</option>
+          </select>
+        </label>
+      </fieldset>
+      <!--melhorias-->
+      <fieldset>
+        <label for="melhoria">O que você gostaria que melhorasse? (Selecione tudo que se aplica) <br>
+          <input id="melhoria" type="checkbox" value="projetos-front-end"> Projetos Front-End <br>
+          <input id="melhoria" type="checkbox" value="projetos-back-end"> Projetos Back-End <br>
+          <input id="melhoria" type="checkbox" value="desafios"> Desafios <br>
+          <input id="melhoria" type="checkbox" value="videos"> Vídeos <br>
+          <input id="melhoria" type="checkbox" value="forum"> Fórum <br>
+          <input id="melhoria" type="checkbox" value="cursos-adicionais"> Cursos adicionais
+        </label>
+      </fieldset>
+      <!--comentarios-->
+      <fieldset>
+        <label for="coment">Algum comentário ou sugestão?
+          <textarea id="coment" cols="30" rows="5" placeholder="Digite seu comentário aqui..."></textarea>
+        </label>
+      </fieldset>
+      <button>Enviar</button>
+    </form>
+  </body>
+<html>

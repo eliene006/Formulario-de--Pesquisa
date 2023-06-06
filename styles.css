@@ -1,0 +1,74 @@
+body {
+  font-family: 'Roboto';
+  background-color: #6a4dd6;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Playfair';
+  text-align: center;
+  margin-top: 40px;
+  font-size: 35px;
+}
+
+p {
+  font-family: 'Roboto';
+  font-style: italic;
+  text-align: center;
+  margin-top: -18px;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+form {
+  background-color: #1e0f5799;
+  margin: 0 auto;
+  max-width: 600px;
+  min-width: 300px;
+  width: 70vw;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 16px 8px 40px 8px;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem 1rem;
+}
+
+.text, select {
+  margin: 8px 0 20px 0;
+  width: 100%;
+  height: 1.8rem;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 10px; 
+}
+
+input {
+  margin: 15px 0 0 0;
+}
+
+button {
+  background-color: #21b55c;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 94%;
+  height: 40px;
+  font-size: 18px;
+}
+
+input, textarea, select {
+  border-radius: 4px;
+  border: 1px white solid;
+  font-size: 15px;
+}
